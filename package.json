@@ -3,16 +3,18 @@
   "version": "1.0.0",
   "description": "server config for app",
   "main": "index.js",
-  "engines" : {
+  "engines": {
     "node": "8.1.2",
     "npm": "5.0.3"
   },
   "scripts": {
-    "start": "node index.js"    
+    "start": "node index.js"
   },
   "author": "kosha",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "cross-spawn-async": "^2.2.5",
+    "express": "^4.16.4",
+    "heroku": "^7.24.1"
   }
 }
